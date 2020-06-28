@@ -27,7 +27,7 @@ fetch("https://ubc-courses-api.herokuapp.com/tree/2018W/" + faculty).then (respo
 };
 
 let facultyList = [];
-getCourses("COMM");
+getCourses("ECON");
 
 // return all the Faculty codes and get their courses
 // fetch("https://ubc-courses-api.herokuapp.com/2018W").then (response => {
